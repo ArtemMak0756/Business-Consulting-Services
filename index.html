@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="We provide expert business consulting services, helping companies optimize strategies and improve business processes for long-term success." />
+    <meta name="keywords" content="We are your path to success, Ultimate Solutions for Modern Businesses, business consulting, strategy optimization, financial management, human resources" />
+    <meta name="robots" content="index, follow" />
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Business Consulting Services | Your Path to Success</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="./JS/gsap/gsap.min.js" defer></script>
+    <script src="./JS/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./JS/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="./JS/main.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="content">
+        <header>
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="./images/Icon.svg" alt="Business consulting strategy optimization">
+                    <p>Business <br> Consulting</p>
+                </div>
+                <div class="header__navigation">
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact </a>
+                </div>
+                <div class="header__button">
+                    <button id="openModal" type="submit">Get in touch</button>
+                </div>
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Consulting Request Form</h2>
+                    <form id="consulting-form">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                        <label for="email">Your Email:</label   >
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea>
+
+                        <a href="thank.html">Submit</a>
+                    </form>
+                </div>
+            </div>
+            <div class="intro">
+            <div class="intro__container">
+                <div class="intro__text">
+                    <h2>Business consulting</h2>
+                    <h1>Ultimate Solutions for Modern Businesses</h1>
+                    <h3>Empowering businesses with innovative strategies, expert consulting, and cutting-edge solutions to drive growth and efficiency.</h3>
+                    <div class="intro__services">
+                        <ul>
+                            <li><img src="./images/Icon-.svg" alt=""><a href="#">Strategic excellence</a></li>
+                            <li><img src="./images/Icon-.svg" alt=""><a href="#">Business consulting</a></li>
+                            <li><img src="./images/Icon-.svg" alt=""><a href="#">Innovation</a></li>
+                        </ul>
+                    </div>
+                    <div class="intro__buttons">
+                        <button type="submit">Button</button>
+                        <button type="submit">Learn more</button>
+                    </div>
+                </div>
+                <div class="intro__images">
+                    <img src="./images/smiling_black_business_woman_in_white_jacket_isolated_on_blank_transparent_background_g_1_1_1%201.png" alt="">
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="services__header">
+            <p><span>5k+</span><br>Supported businesses</p>
+            <p><span>7k+</span> <br>Projects done</p>
+            <p><span>2k+</span> <br>Clients worldwide</p>
+        </div>
+        <div class="content_">
+            <div class="services">
+            <div class="services__container">
+                <div class="services__main">
+                    <div class="services__main--preview">
+                        <h2>Business consulting <br> <br><span>What services do we <br> offer for your business</span></h2>
+                        <p>We provide tailored solutions to help your business thrive, from strategic planning and financial
+                            management to marketing and human resources support. Let us guide you toward success.</p>
+                    </div>
+                    <div class="services__main--blocks">
+                        <div class="services__main--blocks-block">
+                            <img src="./images/Group%20(1).svg " alt="Marketing strategy development to enhance brand visibility and attract more customers">
+                            <h2>Marketing Strategy</h2>
+                            <p>Develop tailored strategies to enhance your brand's visibility and attract more customers.</p>
+                            <button type="submit">Details <span>></span></button>
+                        </div>
+                        <div class="services__main--blocks-block">
+                            <img src="./images/marble%202%20(1).svg" alt="Optimizing financial flows to achieve maximum profitability">
+                            <h2>Financial management</h2>
+                            <p>Optimize financial flows and manage resources to achieve maximum profitability. </p>
+                            <button type="submit">Details <span>></span></button>
+                        </div>
+                        <div class="services__main--blocks-block">
+                            <img src="./images/Group%20(2).svg" alt="Comprehensive business strategy solutions for long-term growth and sustainable development">
+                            <h2>Business Strategy</h2>
+                            <p>Comprehensive solutions for long-term growth and sustainable business development.</p>
+                            <button type="submit">Details <span>></span></button>
+                        </div>
+                        <div class="services__main--blocks-block">
+                            <img src="./images/Group%20(3).svg" alt="Boosting sales with effective marketing campaigns and targeted strategies">
+                            <h2>Sales and Marketing</h2>
+                            <p>Boost your sales with effective marketing campaigns and targeted strategies.</p>
+                            <button type="submit">Details <span>></span></button>
+                        </div>
+                        <div class="services__main--blocks-block">
+                            <img src="./images/Group%20(4).svg" alt="Leveraging innovative digital solutions to modernize business processes">
+                            <h2>Digital Technology</h2>
+                            <p>Leverage innovative digital solutions to modernize your business processes.</p>
+                            <button type="submit">Details <span>></span></button>
+                        </div>
+                        <div class="services__main--blocks-block">
+                            <img src="./images/marble%202%20(1).svg" alt="Building a strong team through professional HR management">
+                            <h2>Human Resources</h2>
+                            <p>Build a strong team through professional HR management.</p>
+                            <button type="submit">Details <span>></span> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="advice">
+            <div class="advice__container">
+                <div class="advice__image">
+                    <img src="./images/Img%2044.png" alt="">
+                </div>
+                <div class="advice__text">
+                    <h3>Business consulting</h3>
+                    <h4>The right advice for a <br> brighter financial future</h4>
+                    <div class="advice__text--points">
+                       <ul>
+                           <li>
+                               <h2>Advisory services</h2>
+                               <p>Tailored strategies designed to optimize operations, drive growth, and ensure long-term sustainability.</p>
+                           </li>
+                           <li>
+                               <h2>Advisory services</h2>
+                               <p>Professional insights to transform your business potential into measurable results.</p>
+                           </li>
+                           <li>
+                               <h2>Advisory services</h2>
+                               <p>Focused support to help your business thrive in a competitive environment.</p>
+                           </li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="sectors">
+            <div class="sectors__container">
+                <div class="sectors__main--preview">
+                    <h2>Business consulting <br> <br><span>What sectors of the <br> economy do we serve</span></h2>
+                    <p>Sed lorem ut nulla tortor sit eget felis. Integer
+                        malesuada curabitur vel interdum leo justo at
+                        ultricies. Tincidunt massa amet sagittis aliquam
+                        turpis volutpat.  </p>
+                </div>
+                <div class="sectors__main--blocks">
+                    <div class="sector-block">
+                        <img src="./images/Img%201.png" alt="">
+                        <p>Real Estate</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%202.png" alt="">
+                        <p>Agriculture</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%203.png" alt="">
+                        <p>Travel</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%204.png" alt="">
+                        <p>Automotive</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%205.png" alt="">
+                        <p>Financial <br> Services</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%206.png" alt="">
+                        <p>Construction</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%207.png" alt="">
+                        <p>Retail</p>
+                    </div>
+                    <div class="sector-block">
+                        <img src="./images/Img%208.png" alt="">
+                        <p>Logistic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="solutions">
+                <div class="solutions__container">
+                <div class="solutions__text">
+                    <h2>Business consulting</h2>
+                    <h3>Progressive solutions for progressive businesses.</h3>
+                    <p>We deliver innovative approaches to tackle modern challenges, streamline operations, and drive sustainable growth. Our expertise ensures your business stays ahead in an ever-evolving market.</p>
+                    <button type="submit">Learn more</button>
+                </div>
+                <div class="solutions__image">
+                    <img src="./images/Img%20(1).png" alt="">
+                </div>
+            </div>
+            </div>
+            <div class="review">
+            <div class="review__container">
+                <div class="review__image">
+                    <img src="./images/Img%20(111).png" alt="">
+                </div>
+                <div class="review__content">
+                    <h1>We are your path to success</h1>
+                    <p>We help businesses reach new heights. Our consultants provide tailored solutions based on in-depth market analysis and industry trends. We believe that the right approach and clear strategy are the key factors to success. Trust us, and we will help you unlock your business's potential and overcome any challenges on the path to growth.</p>
+                    <h2><span>Lorene Hudson</span> <br>CEO / Ritchie Group</h2>
+                </div>
+            </div>
+        </div>
+            <div class="news">
+            <div class="news__container">
+                <h2>Business consulting</h2>
+                <h1>Lates news</h1>
+                <div class="news__blocks">
+                    <div class="news__blocks--block">
+                        <img src="./images/Img%20(k).png" alt="">
+                        <h3>25.01.24 / Business consulting</h3>
+                        <p>Building business agility begins with culture</p>
+                        <button type="submit">Read more -></button>
+                    </div>
+                    <div class="news__blocks--block">
+                        <img src="./images/Img%20(a).png" alt="">
+                        <h3>25.01.24 / Business consulting</h3>
+                        <p>Building business agility begins with culture</p>
+                        <button type="submit">Read more -></button>
+                    </div>
+                    <div class="news__blocks--block">
+                        <img src="./images/Img%20(p).png" alt="">
+                        <h3>25.01.24 / Business consulting</h3>
+                        <p>Building business agility begins with culture</p>
+                        <button type="submit">Read more -></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div class="footer__container">
+            <div class="footer__first">
+                <div class="first__logo">
+                    <img src="./images/Icon.svg" alt="">
+                    <p>Business <br> Consulting</p>
+                </div>
+                <div class="first__text">
+                    <p>We provide consulting services based on deep knowledge and experience. Our experts help improve business processes, optimize strategies, and achieve better results in every area.  </p>
+                    <h2>Subscribe Us</h2>
+                    <div class="first__text-images">
+                        <img src="./images/Facebook_black.svg" alt="">
+                        <img src="./images/Group%203.svg" alt="">
+                        <img src="./images/Instagram_black.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__second">
+                <div class="second__Services">
+                    <h1>Services</h1>
+                    <ul>
+                        <li><a href="#">Marketing Strategy</a></li>
+                        <li><a href="#">Financial management</a></li>
+                        <li><a href="#">Business Strategy</a></li>
+                        <li><a href="#">Sales and Marketing</a></li>
+                        <li><a href="#">Human Resources</a></li>
+                    </ul>
+                </div>
+                <div class="second__Services">
+                    <h1>Useful links</h1>
+                    <ul>
+                        <li><img src="./images/Icon-.svg" alt=""><a href="privacy.html">Privacy policy</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact </a></li>
+                        <li><a href="#">F.A.Q</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__third">
+                <h1>Subscribe for our newsletter</h1>
+                <h2>Consequat vel arcu feugiat dui eu tempor pretium </h2>
+                <div class="third__subscribe">
+                    <input type="email" name="email" placeholder="Your email" class="email-input" />
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+                <div class="third__contacts">
+                    <div class="contacts__addres">
+                        <h3>Address</h3>
+                        <p>8592 Fairground <br> <br> St. Tallahassee, <br> <br> FL 32303</p>
+                    </div>
+                    <div class="contacts__emil">
+                        <h3>Email</h3>
+                        <p>teverett@optonline.net</p>
+                        <br>
+                        <h3>Phone</h3>
+                        <p>(863) 267-3634</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </div>
+</div>
+<div id="cookie-banner" class="cookie-banner">
+    <p>
+        We use cookies to enhance your experience on our website.
+        Learn more about our <a href="cookie.html">cookie policy</a>.
+    </p>
+    <br>
+    <button id="accept-cookies" class="cookie-button">Accept</button>
+</div>
+
+</body>
+</html>
