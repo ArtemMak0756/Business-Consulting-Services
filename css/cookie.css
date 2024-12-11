@@ -235,3 +235,8 @@ footer{
     font-weight: 400;
 }
 
+@media(max-width: 1131px) {
+    .footer__first, .second__Services {
+        padding-right: 60px;
+    }
+}
