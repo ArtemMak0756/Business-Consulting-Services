@@ -332,9 +332,13 @@ header{
 .advice{
     background: linear-gradient(257deg, #001898 0%, #000832 100%);
 }
-.advice__container,.advice__image{
+.advice__container{
     display: flex;
     justify-content: center;
+}
+.advice__image{
+    display: flex;
+    align-items: center;
 }
 .advice__image img{
     max-width: 775px;
@@ -763,7 +767,7 @@ footer{
 /*----------------------------------------------------------------*/
 
 .cookie-banner {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
